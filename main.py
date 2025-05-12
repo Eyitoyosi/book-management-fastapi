@@ -298,8 +298,3 @@ def most_borrowed_book():
   
   new_books = list(filter(lambda x: x["times_borrowed"] == most_borrowed_book["times_borrowed"], books))       
   return new_books
-
-
-# print(borrow_book_by_author({"author_name":"Joel Grus"}))
-# print(all_books())
-# print("hello")
